@@ -123,10 +123,10 @@ while y < 6:
         rDone[0] = rStruct[rollDice("d10")]
         print(rDone[0])
     elif options == 2:
-        rDone[1] = rInhab[rollDice("d20")]
+        rDone[1] = yRuin[rollDice("d10")]     
         print(rDone[1])
     elif options == 3:
-        rDone[2] = yRuin[rollDice("d10")]     
+        rDone[2] = rInhab[rollDice("d20")]
         print(rDone[2])
     elif options == 4:
         rDone[3] = longRuin[rollDice("d8")]
@@ -152,6 +152,7 @@ with open (resultFile, 'a') as file_object:
     
     file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
                       + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".")
+    file_object.write('\n')
     
     #for ruins in rDone:
     #    file_object.write(ruins + "\n")
