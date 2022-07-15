@@ -105,7 +105,7 @@ print("Welcome to Ruin Generator!")
 print("What would you like to start with?")
 
 y = 1
-while y < 5:
+while y < 6:
     print("1. Ruin Structure")
     print("2. Why was it ruined?")
     print("3. Current Inhabitants")
@@ -136,4 +136,25 @@ while y < 5:
         print(rDone[4])
     else:
         print("Sorry, that is not an option.")
-y = y + 1 #endWhile
+    y = y + 1 #endWhile
+
+print('What shall we call it?')
+
+ruinName = input()
+
+print('Okay it looks like your ruin is:\n' + 
+rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
++ rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".")
+
+resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
+
+with open (resultFile, 'a') as file_object:
+    
+    file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
+                      + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".")
+    
+    #for ruins in rDone:
+    #    file_object.write(ruins + "\n")
+    #file_object.write('\n')
+
+print('Ruin has been saved to the RuinedPlaces file!')
