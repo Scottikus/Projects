@@ -1,6 +1,3 @@
-from unicodedata import name
-
-
 spam = 40
 
 print("Hello World!")
