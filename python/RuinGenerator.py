@@ -158,14 +158,14 @@ with open (resultFile, 'a') as file_object:
                       "\nRuin Condition - " + rDone[4] + ".\n")
     file_object.write('\n')
 
-    #file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
-    #                  + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".\n")
-    #file_object.write('\n')
+    # file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current
+    # inhabitants are " + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " +
+    # rDone[4] + ".\n") file_object.write('\n')
 
-    #If listing without flavor a for loop can work.
+    # If listing without flavor a for loop can work.
 
-    #for ruins in rDone:
+    # for ruins in rDone:
     #    file_object.write(ruins + "\n")
-    #file_object.write('\n')
+    # file_object.write('\n')
 
 print('Ruin has been saved to the RuinedPlaces file!')
