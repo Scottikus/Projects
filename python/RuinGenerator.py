@@ -150,10 +150,20 @@ resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
 
 with open (resultFile, 'a') as file_object:
     
-    file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
-                      + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".")
+    file_object.write(ruinName + " -\n" + 
+                      "The Ruined Structure is - " + rDone[0] + 
+                      "\nWhy was it ruined? - " + rDone[1] + 
+                      "\nCurrent Inhabitants - " + rDone[2] + 
+                      "\nHow long has it been ruined? - " + rDone[3] + 
+                      "\nRuin Condition - " + rDone[4] + ".\n")
     file_object.write('\n')
-    
+
+    #file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
+    #                  + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".\n")
+    #file_object.write('\n')
+
+    #If listing without flavor a for loop can work.
+
     #for ruins in rDone:
     #    file_object.write(ruins + "\n")
     #file_object.write('\n')
