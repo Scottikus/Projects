@@ -1,8 +1,9 @@
-#Ruin Generator
+# Ruin Generator
 # I am creating a prompt to create a ruined place for Dnd to practice Python Code!
 
-#Dice Roll function
+# Dice Roll function
 import random
+import os
 
 rStruct = [
     "A small collection of huts"
@@ -11,7 +12,7 @@ rStruct = [
     , "A mighty citadel"
     , "A single cottage"
     , "A once mighty wizard’s tower"
-    , "A cemetary or tomb"
+    , "A cemetery or tomb"
     , "A small hamlet"
     , "A town or village"
     , "A city or major settlement"
@@ -101,44 +102,13 @@ def rollDice(dice: str):
     else:
         return 'ERROR! The input you have chosen was invalid.'  
 
-print("Welcome to Ruin Generator!")
-print("What would you like to start with?")
+rDone[0] = rStruct[rollDice("d10")]
+rDone[1] = yRuin[rollDice("d10")]     
+rDone[2] = rInhab[rollDice("d20")]
+rDone[3] = longRuin[rollDice("d8")]
+rDone[4] = rCondition[rollDice("d10")]
 
-y = 1
-while y < 6:
-    print("1. Ruin Structure")
-    print("2. Why was it ruined?")
-    print("3. Current Inhabitants")
-    print("4. How long ago was it ruined?")
-    print("5. Ruin Condition?")
-
-    #input from variables needs to be specified 
-
-    options = int(input())
-
-    #Case statements don't exist. if elseif and else instead
-
-    if options == 1:
-        rDone[0] = rStruct[rollDice("d10")]
-        print(rDone[0])
-    elif options == 2:
-        rDone[1] = yRuin[rollDice("d10")]     
-        print(rDone[1])
-    elif options == 3:
-        rDone[2] = rInhab[rollDice("d20")]
-        print(rDone[2])
-    elif options == 4:
-        rDone[3] = longRuin[rollDice("d8")]
-        print(rDone[3])
-    elif options == 5:
-        rDone[4] = rCondition[rollDice("d10")]
-        print(rDone[4])
-    else:
-        print("Sorry, that is not an option.")
-    y = y + 1 #endWhile
-
-print('What shall we call it?')
-
+print('What shall we call You Ruin?')
 ruinName = input()
 
 print('Okay it looks like your ruin is:\n' + 
@@ -168,3 +138,6 @@ with open (resultFile, 'a') as file_object:
     # file_object.write('\n')
 
 print('Ruin has been saved to the RuinedPlaces file!')
+
+osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
+os.system(osCommandString)
