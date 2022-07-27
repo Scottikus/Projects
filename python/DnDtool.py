@@ -160,6 +160,8 @@ def rollDice(dice: str):
     elif dice == 'd100':
         r = random.randint(0, 99)
         return r
+    elif dice == '50':
+        r = random.randint(0, 49)
     else:
         return 'ERROR! The input you have chosen was invalid.'
 
