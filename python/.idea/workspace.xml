@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1caf8645-23c8-46ac-868d-608503ed9ede" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RuinGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuinGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DnDtool.py" beforeDir="false" afterPath="$PROJECT_DIR$/DnDtool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RuinTextOpener.py" beforeDir="false" afterPath="$PROJECT_DIR$/RuinTextOpener.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
       <workItem from="1658779704281" duration="957000" />
       <workItem from="1658781965563" duration="1118000" />
       <workItem from="1658808492567" duration="1366000" />
+      <workItem from="1658863043945" duration="241000" />
     </task>
     <servers />
   </component>

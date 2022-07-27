@@ -101,6 +101,34 @@ def rollDice(dice: str):
         return r
     else:
         return 'ERROR! The input you have chosen was invalid.'  
+def generate(*args):
+    resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
+
+    with open (resultFile, 'a') as file_object:
+        
+        file_object.write(ruinName + " -\n" + 
+                          "The Ruined Structure is - " + rDone[0] + 
+                          "\nWhy was it ruined? - " + rDone[1] + 
+                          "\nCurrent Inhabitants - " + rDone[2] + 
+                          "\nHow long has it been ruined? - " + rDone[3] + 
+                          "\nRuin Condition - " + rDone[4] + ".\n")
+        file_object.write('\n')
+    
+        # file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current
+        # inhabitants are " + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " +
+        # rDone[4] + ".\n") file_object.write('\n')
+    
+        # If listing without flavor a for loop can work.
+    
+        # for ruins in rDone:
+        #    file_object.write(ruins + "\n")
+        # file_object.write('\n')
+    
+    print('Ruin has been saved to the RuinedPlaces file!')
+    
+    osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
+    os.system(osCommandString)
+
 
 rDone[0] = rStruct[rollDice("d10")]
 rDone[1] = yRuin[rollDice("d10")]     
@@ -115,29 +143,30 @@ print('Okay it looks like your ruin is:\n' +
       rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current inhabitants are " 
       + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " + rDone[4] + ".")
 
-resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
-
-with open (resultFile, 'a') as file_object:
-    
-    file_object.write(ruinName + " -\n" + 
-                      "The Ruined Structure is - " + rDone[0] + 
-                      "\nWhy was it ruined? - " + rDone[1] + 
-                      "\nCurrent Inhabitants - " + rDone[2] + 
-                      "\nHow long has it been ruined? - " + rDone[3] + 
-                      "\nRuin Condition - " + rDone[4] + ".\n")
-    file_object.write('\n')
-
-    # file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current
-    # inhabitants are " + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " +
-    # rDone[4] + ".\n") file_object.write('\n')
-
-    # If listing without flavor a for loop can work.
-
-    # for ruins in rDone:
-    #    file_object.write(ruins + "\n")
-    # file_object.write('\n')
-
-print('Ruin has been saved to the RuinedPlaces file!')
-
-osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
-os.system(osCommandString)
+generate()
+# resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
+# 
+# with open (resultFile, 'a') as file_object:
+#     
+#     file_object.write(ruinName + " -\n" + 
+#                       "The Ruined Structure is - " + rDone[0] + 
+#                       "\nWhy was it ruined? - " + rDone[1] + 
+#                       "\nCurrent Inhabitants - " + rDone[2] + 
+#                       "\nHow long has it been ruined? - " + rDone[3] + 
+#                       "\nRuin Condition - " + rDone[4] + ".\n")
+#     file_object.write('\n')
+# 
+#     # file_object.write(ruinName + " is " + rDone[0] + " that was ruined by " + rDone[1] + ".\nIt's current
+#     # inhabitants are " + rDone[2] + ".\nIt has been in ruins for " + rDone[3] + ".\nIt's condition is that it is " +
+#     # rDone[4] + ".\n") file_object.write('\n')
+# 
+#     # If listing without flavor a for loop can work.
+# 
+#     # for ruins in rDone:
+#     #    file_object.write(ruins + "\n")
+#     # file_object.write('\n')
+# 
+# print('Ruin has been saved to the RuinedPlaces file!')
+# 
+# osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
+# os.system(osCommandString)
