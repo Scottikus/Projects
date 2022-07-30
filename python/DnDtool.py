@@ -80,16 +80,10 @@ rCondition = [
     "Fully Operational"
 ]
 
-preVill = [
-    "All", "Aller", "Alver", "Ar", "Ashe", "Axe", "Bal", "Bard", "Bear", "Bell", "Black", "Blue", "Bone", 
-    "Coal", "Cold", "Cora", "Crown", "Crystal", "Dagger", "Dark", "Darrow", "Deep", "Dor", "Dragon", "Dry", 
-    "Durn,", "Dust,", "East,", "Edge,", "Eld", "Ever,", "Fey", "Frey,", "Frost", "Gill,", "Gold,", "Grand", 
-    "Green", "Grey,", "Grim,", "Hammer", "Haw", "High,", "Hol", "Ice", "Iron,", "Jewel", "Kel", "Kil", "King,", 
-    "Lan", "Leaf,", "Lun", "Mal", "Marsh", "Mon", "Moon,", "Mor", "Mur", "Nether", "North", "Oak", "Old", 
-    "Pan", "Pel", "Rain,", "Raven", "Red", "Rock,", "Rom", "Roth,", "Ruby,", "Rune,", "Salt,", "San", "Silver", 
-    "South", "Star", "Stone", "Storm", "Strath", "Sun", "Tar", "Ten", "Tin", "Torr", "Tran", "Val", "Vine", 
-    "West", "White", "Wild", "Willow", "Wim", "Wind", "Winter", "Witch", "Wolfen", "Yar", "Zel"
-]
+villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
+
+with open(villPre) as f:
+    preVill = f.read().splitlines()
 
 sufVill = [
     "barrow", "bay", "bend", "bridge", "burgh", "burough", "bury", "cliff", "crest", "cress", "dale", "don", 
