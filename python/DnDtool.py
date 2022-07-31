@@ -9,88 +9,39 @@ window = Tk()
 window.title("DnD Tool")
 
 # Arrays to pull from
-townName = [
-    "Copstage", "Bowthorpe", "Oweninny", "Wickerton", "Bridgnorth", "Mamble", "Lakedon", "Castley", "Rainhill",
-    "Innswood", "Eriskay", "Wychavon", "Goodminton", "Spen", "Cumnock", "Bridgefalls", "Midgham", "Stow",
-    "Northwick", "Upwaltham", "Chatwell", "Eagletree", "Ewyas Harold", "Farthinghoe", "Getty's Peak", "Ystumllwynarth",
-    "Milston", "Inkdon", "Winson", "Little Bridge", "Knightsroost", "Patrington", "Tandragee", "Crestbourne", "Pitney",
-    "Uppington", "Summerton", "Lenham", "Bunowen", "Hawksmoor", "Beeford", "Orcheston", "Mintwillow", "Skendleby", 
-    "Ashcott", "Helenton", "Freckenham", "Purton", "Hillcrest", "Bardney", "Springthorpe", "Ropewalker", "Grindon", 
-    "Troutbeck", "Presthorpe", "Ballygub", "Skinningrove", "Fiddlegreen", "Palace", "Ounageeragh", "Ryefield", 
-    "Ullauns", "Uplowman", "Barnsey", "Wimpstone", "Ecclesfield", "Dogsbody", "Pollokshields", "Faxfleet", 
-    "Cornhenge", "Hinstock", "Allerthorpe", "Ashbourne", "Portpatrick", "Notton", "Hutton", "Penarlâg", "Bloxholm", 
-    "Beaksdale", "Ballyconneely", "Tandridge", "Butterpond", "Orgreave", "Drumbrughas", "Starling", "Sporle", "Elmley", 
-    "Meadhaven", "Tetchill", "Tay", "Darlajex", "Hedley on the Hill", "Lyrenagreena", "Swallowbeak", "Portloman", 
-    "Worlingworth", "Boarsrest", "Shrough", "Alvechurch", "Kriggan", "Appledore", "Wiggenhall", "Dundertun", "Crewe", 
-    "Ashdown Forest", "Goldcrest", "Saint Bees", "Munsley", "Sweetmount", "Blatchington", "Curraghlawn", "Vintnerdale", 
-    "Siefton", "Ballycrossaun", "Elkhorn", "Farthinghoe", "Offley", "Arsington", "Gortnahoe", "Tickenham", 
-    "Pottersfield", "Chilwell", "Wolsingham", "Merryhall", "Harlow Hill", "Lettermullan", "Timbersprout", "Astley", 
-    "Clent", "Gracey Peaks", "Berrow Green", "Corrandulla", "Winter's End", "Attenborough", "Pickworth", "Donaville", 
-    "Glanaman", "Leek Wootton", "Hevensbreath", "Dalwhinnie", "Blackwood", "Blythewood", "Elvetham", "Ousefleet",
-    "Goldpeak", "Ballyboghal", "Barham", "Heathenschurch", "Hilborough", "Ballinameen", "Fleet Landing",
-    "Chiddingstone", "Sollom", "Windrest", "Tain", "Curragh", "Windybrook", "Wartnaby", "Lifford", "Bowen's Island", 
-    "Ewell", "Illston on the Hill", "Kingsford", "Shrigley Pott", "Braunton", "Snowygap", "Peterborough", "Rainow", 
-    "Tugby", "Harvenset", "Codrington", "Clericsfold", "Musbury", "Wesham", "Rainvalley", "Alexandria", "Grianan", 
-    "Crudgington", "Wishleaf", "Brotherton", "Nettlebed", "Grendale", "Branxton", "Curdridge", "Plodburg", "Morvah",
-    "Clontoe", "Felderford", "Babbacombe", "Warninglid", "Twindleton", "Ballyheelan", "Whiteparish", "Stagcross", 
-    "Killarney", "Lissycasey", "Hollybranch", "Treforys", "Ballycommon", "Threader's Hollow", "Pyecombe", "Althorp", 
-    "Silverton", "Hawick", "Ilton", "Ashpoint", "Snaefell", "Ashwell", "Dalmhurst", "Weybread", "Headlam", "Ravenwood", 
-    "Fife", "Woodchurch", "Smackover", "Kesgrave", "Budbrooke", "Starrynight", "Avonmouth", "Bardsey Island", 
-    "Underthal", "Ashmansworth", "Chell Heath", "Saint Michaelsheights", "Marlborough", "Palgrave", 
-    "Little Peachingston", "Casnewydd-ar-Wysg", "Ilminster", "Featherfall", "Aller", "Messing", "Cripple Creek", 
-    "Braemar", "Swanley", "Featherfoot", "Willand", "Bierton", "Riddle Reach", "Bredfield", "Crow", "Wundwin", 
-    "Dewlish", "Cliftonville", "Guildingston", "Tibthorpe", "Canonbury", "Maubid", "Ballymartin", "Uisge-Labhair", 
-    "Jebend", "Ardsheelane", "Wroxham", "San Serif", "Rodbourne", "Rath", "Shorley-Knott", "Aberavon", "Supbrough",
-    "Mancot Royal", "Orcsnout", "Casnewydd Green", "Benwick", "Aeby-on-Sea", "Peckleton", "Tiltonsville",
-    "Ballycrissane", "Sevenclaw", "Woodstock", "Cowlinge", "Smolton", "Penistone", "Glen Robins", "Theydon Bois", 
-    "Crag", "Totternhoe", "Blockley", "Hunose-Weir", "Wakerley", "Mount Pleasant", "Alwalton", "Wishbone", "Tindale", 
-    "Brafferton", "Fockery", "Soulby", "Martin's Ferry", "Petersham", "Wagonrut", "West", "Hammersmith", 
-    "Neistermeechia", "Tilford", "Deep Run", "Penrhyn-Llŷn", "Endtown", "Crux Easton", "Wallasey", "Shavebury", 
-    "Veryan", "Elm Grove", "Catfield", "Mangle", "Mere", "Cowling", "Downloe", "Shadyside"
-]
+nTown= 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Town_Names.txt'
 
-rStruct = [
-    "A small collection of huts", "A grand noble’s manor", "A temple or monastery", "A mighty citadel", 
-    "A single cottage", "A once mighty wizard’s tower", "A cemetery or tomb", "A small hamlet", "A town or village", 
-    "A city or major settlement"
-]
+with open(nTown) as fTown:
+    townName = fTown.read().splitlines()
 
-rInhab = [
-    "Groups of bandits or criminals", "Swarms of vermin", "Social outcasts looking for a new home", 
-    "Haunted by ghosts or spirits", "Swarms of insects", "Savage beasts", "Refugees with nowhere else to go", 
-    "Hordes of undead", "Rebels acting against the local ruler", "Brand new settlers", 
-    "A group of traders collecting resources", "Religious fanatics or cult members", "Groups of giants", 
-    "Eldritch beings", "A mighty and cunning dragon", "Survivors of the ruin’s original purpose", "Plant creatures", 
-    "Friendly adventuring group passing through", "A wizard that is up to no good", "No one; it is truly abandoned"
-]
 
-yRuin = [
-    "Disease / Plague", "Economic or Political Collapse", "Monster Invasion", "Evil Curse", "Overgrowth", 
-    "Victims of a Great War", "A Natural Disaster", "Infestation", "Wrath of an Angry God", "A Magical Catastrophe"
-]
+ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
-longRuin = [
-    "Before Recorded History", "1d6 Centuries Ago", "1d6 Decades Ago", "1d6 Years Ago", "1d6 Months Ago", 
-    "1d6 Weeks Ago", "1d6 Days Ago", "1d6 Hours Ago"
-]
+with open(ruinAtt) as fAtt:
+    rStruct = fAtt.read().splitlines()[1:11]
 
-rCondition = [
-    "Crumbling / Decayed", "Disfigured / Desecrated", "Infested", "Corroded / Eroded", "Collapsed and Broken", 
-    "Crystallized / Petrified In Stone", "Contaminated", "Overgrown / Fungal", "Still Partially Operational", 
-    "Fully Operational"
-]
+with open(ruinAtt) as fAtt:
+    rInhab = fAtt.read().splitlines()[13:33]
+
+with open(ruinAtt) as fAtt:
+    yRuin = fAtt.read().splitlines()[36:45]
+
+with open(ruinAtt) as fAtt:
+    longRuin = fAtt.read().splitlines()[48:56]
+
+with open(ruinAtt) as fAtt:
+    rCondition = fAtt.read().splitlines()[59:68]
 
 villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
 
-with open(villPre) as f:
-    preVill = f.read().splitlines()
+with open(villPre) as fPre:
+    preVill = fPre.read().splitlines()
 
-sufVill = [
-    "barrow", "bay", "bend", "bridge", "burgh", "burough", "bury", "cliff", "crest", "cress", "dale", "don", 
-    "dorf", "end", "far", "fell", "field", "ford", "gate", "grave", "guard", "hall", "haven", "helm", "hill", 
-    "holme", "land", "meet", "meadow", "mill", "moor", "mount", "point", "pool", "port", "rest", "shire", 
-    "smith", "song", "spring", "stead", "stow", "tree", "town", "view", "wall", "watch", "well", "wich", "wood"
-]
+villSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
+
+with open(villSuf) as fSuf:
+    sufVill = fSuf.read().splitlines()
+
 
 # Array to store results
 rDone = ["", "", "", "", ""]
