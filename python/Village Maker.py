@@ -1,19 +1,23 @@
+# Import necessary libraries
+from tkinter import *
+from tkinter import ttk
 from operator import concat
 import random
 
-preVill = ["All", "Aller", "Alver", "Ar", "Ashe", "Axe", "Bal", "Bard", "Bear", "Bell", "Black", "Blue", "Bone", 
-           "Coal", "Cold", "Cora", "Crown", "Crystal", "Dagger", "Dark", "Darrow", "Deep", "Dor", "Dragon", "Dry", 
-           "Durn,", "Dust,", "East,", "Edge,", "Eld", "Ever,", "Fey", "Frey,", "Frost", "Gill,", "Gold,", "Grand", 
-           "Green", "Grey,", "Grim,", "Hammer", "Haw", "High,", "Hol", "Ice", "Iron,", "Jewel", "Kel", "Kil", "King,", 
-           "Lan", "Leaf,", "Lun", "Mal", "Marsh", "Mon", "Moon,", "Mor", "Mur", "Nether", "North", "Oak", "Old", 
-           "Pan", "Pel", "Rain,", "Raven", "Red", "Rock,", "Rom", "Roth,", "Ruby,", "Rune,", "Salt,", "San", "Silver", 
-           "South", "Star", "Stone", "Storm", "Strath", "Sun", "Tar", "Ten", "Tin", "Torr", "Tran", "Val", "Vine", 
-           "West", "White", "Wild", "Willow", "Wim", "Wind", "Winter", "Witch", "Wolfen", "Yar", "Zel"]
+villWin = Tk()
+villWin.title('Village Maker')
 
-sufVill = ["barrow", "bay", "bend", "bridge", "burgh", "burough", "bury", "cliff", "crest", "cress", "dale", "don", 
-           "dorf", "end", "far", "fell", "field", "ford", "gate", "grave", "guard", "hall", "haven", "helm", "hill", 
-           "holme", "land", "meet", "meadow", "mill", "moor", "mount", "point", "pool", "port", "rest", "shire", 
-           "smith", "song", "spring", "stead", "stow", "tree", "town", "view", "wall", "watch", "well", "wich", "wood"]
+villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
+
+with open(villPre) as fPre:
+    preVill = fPre.read().splitlines()
+    fPre.close()
+
+villSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
+
+with open(villSuf) as fSuf:
+    sufVill = fSuf.read().splitlines()
+    fSuf.close()
 
 comboTown = ""
 
@@ -43,17 +47,20 @@ def rollDice(dice: str):
     else:
         return 'ERROR! The input you have chosen was invalid.'
 
-test = rollDice('d100')
-
-print('test = ')
-print(test)
+villFrame = ttk.Frame(padding="3 3 12 12")
+villFrame.grid(column=0, row=0, sticky=(N, W, E, S))
+villWin.columnconfigure(0, weight=1)
+villWin.rowconfigure(0, weight=1)
+villWin.geometry('300x500')
 
 randNum1 = random.randint(0, 49)
 
 name1 = preVill[rollDice('d100')]
 name2 = sufVill[randNum1]
-comboTown =  name1 + name2
 
-print(name1)
-print(name2)
-print(comboTown)
+ttk.Label(villFrame, text='Choose a Village Name to Generate', justify='center').grid(column=2, row=1, sticky=(W, E))
+
+comboTown = StringVar(villFrame, name1 + name2)
+ttk.Label(villFrame, textvariable=comboTown).grid(column=1, row=2, sticky=(W, E))
+
+villWin.mainloop()

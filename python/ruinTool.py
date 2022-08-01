@@ -38,6 +38,17 @@ with open(ruinAtt) as fAtt:
     rCondition = fAtt.read().splitlines()[59:68]
     fAtt.close()
 
+villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
+
+with open(villPre) as fPre:
+    preVill = fPre.read().splitlines()
+    fPre.close()
+
+villSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
+
+with open(villSuf) as fSuf:
+    sufVill = fSuf.read().splitlines()
+    fSuf.close()
 
 
 # Array to store results
@@ -98,6 +109,8 @@ def generate():
     osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
     os.system(osCommandString)
 
+
+
 # Random Number for getting town name.
 randNum = random.randint(0, 306)
 randNum50 = random.randint(0, 49)
@@ -108,6 +121,8 @@ rDone[1] = yRuin[rollDice("d10")]
 rDone[2] = rInhab[rollDice("d20")]
 rDone[3] = longRuin[rollDice("d8")]
 rDone[4] = rCondition[rollDice("d10")]
+pre1 = preVill[rollDice('d100')]
+suf1 = sufVill[randNum50]
 
 # Frame instantiation
 mainframe = ttk.Frame(padding="3 3 12 12")
@@ -133,6 +148,9 @@ ttk.Label(mainframe, text="Combination Town:", justify='right').grid(column=1, r
 # Show result of random name grabbed.
 townResult = StringVar(mainframe, townName[randNum])
 ttk.Label(mainframe, textvariable=townResult).grid(column=2, row=2, sticky=(W, E))
+
+comboTown = StringVar(mainframe, pre1 + suf1)
+ttk.Label(mainframe, textvariable=comboTown).grid(column=2, row=3, sticky=(W, E))
 
 ttk.Radiobutton(mainframe, text="Choose this", variable=radChoose, value=1).grid(column=3, row=1, sticky=W)
 ttk.Radiobutton(mainframe, text="OR choose this", variable=radChoose, value=2).grid(column=3, row=2, sticky=W)
