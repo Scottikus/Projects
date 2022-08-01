@@ -13,34 +13,42 @@ nTown= 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Town_Names.
 
 with open(nTown) as fTown:
     townName = fTown.read().splitlines()
+    fTown.close()
 
 
 ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
 with open(ruinAtt) as fAtt:
     rStruct = fAtt.read().splitlines()[1:11]
+    fAtt.close()
 
 with open(ruinAtt) as fAtt:
     rInhab = fAtt.read().splitlines()[13:33]
+    fAtt.close()
 
 with open(ruinAtt) as fAtt:
     yRuin = fAtt.read().splitlines()[36:45]
+    fAtt.close()
 
 with open(ruinAtt) as fAtt:
     longRuin = fAtt.read().splitlines()[48:56]
+    fAtt.close()
 
 with open(ruinAtt) as fAtt:
     rCondition = fAtt.read().splitlines()[59:68]
+    fAtt.close()
 
 villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
 
 with open(villPre) as fPre:
     preVill = fPre.read().splitlines()
+    fPre.close()
 
 villSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
 
 with open(villSuf) as fSuf:
     sufVill = fSuf.read().splitlines()
+    fSuf.close()
 
 
 # Array to store results
