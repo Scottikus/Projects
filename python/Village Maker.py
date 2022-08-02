@@ -1,24 +1,14 @@
 # Import necessary libraries
 from tkinter import *
 from tkinter import ttk
-from operator import concat
-import random
 from rollDice import *
+from ImportFiles import *
 
 villWin = Tk()
 villWin.title('Village Maker')
 
-villPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
-
-with open(villPre) as fPre:
-    preVill = fPre.read().splitlines()
-    fPre.close()
-
-villSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
-
-with open(villSuf) as fSuf:
-    sufVill = fSuf.read().splitlines()
-    fSuf.close()
+preVill = importFiles.villPre()
+sufVill = importFiles.villSuf()
 
 comboTown = ""
 
@@ -26,7 +16,7 @@ villFrame = ttk.Frame(padding="3 3 12 12")
 villFrame.grid(column=0, row=0, sticky=(N, W, E, S))
 villWin.columnconfigure(0, weight=1)
 villWin.rowconfigure(0, weight=1)
-villWin.geometry('300x500')
+villWin.geometry('500x300')
 
 name1 = preVill[rollDice.d100()]
 name2 = sufVill[rollDice.d50()]
