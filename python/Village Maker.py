@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter import ttk
 from operator import concat
 import random
+from rollDice import *
 
 villWin = Tk()
 villWin.title('Village Maker')
@@ -21,42 +22,14 @@ with open(villSuf) as fSuf:
 
 comboTown = ""
 
-# Rolling the Dice
-def rollDice(dice: str):
-    if dice == 'd20':
-        r = random.randint(0, 19)
-        return r
-    elif dice == 'd12':
-        r = random.randint(0, 11)
-        return r
-    elif dice == 'd10':
-        r = random.randint(0, 9)
-        return r
-    elif dice == 'd8':
-        r = random.randint(0, 7)
-        return r
-    elif dice == 'd6':
-        r = random.randint(0, 5)
-        return r
-    elif dice == 'd4':
-        r = random.randint(0, 3)
-        return r
-    elif dice == 'd100':
-        r = random.randint(0, 99)
-        return r
-    else:
-        return 'ERROR! The input you have chosen was invalid.'
-
 villFrame = ttk.Frame(padding="3 3 12 12")
 villFrame.grid(column=0, row=0, sticky=(N, W, E, S))
 villWin.columnconfigure(0, weight=1)
 villWin.rowconfigure(0, weight=1)
 villWin.geometry('300x500')
 
-randNum1 = random.randint(0, 49)
-
-name1 = preVill[rollDice('d100')]
-name2 = sufVill[randNum1]
+name1 = preVill[rollDice.d100()]
+name2 = sufVill[rollDice.d50()]
 
 ttk.Label(villFrame, text='Choose a Village Name to Generate', justify='center').grid(column=2, row=1, sticky=(W, E))
 

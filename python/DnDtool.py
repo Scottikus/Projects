@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter import ttk
 import random
 import os
+from rollDice import *
 
 # Instantiate Window
 window = Tk()
@@ -43,37 +44,6 @@ with open(ruinAtt) as fAtt:
 # Array to store results
 rDone = ["", "", "", "", ""]
 
-pre1 = ""
-suf1 = ""
-
-# Rolling the Dice
-def rollDice(dice: str):
-    if dice == 'd20':
-        r = random.randint(0, 19)
-        return r
-    elif dice == 'd12':
-        r = random.randint(0, 11)
-        return r
-    elif dice == 'd10':
-        r = random.randint(0, 9)
-        return r
-    elif dice == 'd8':
-        r = random.randint(0, 7)
-        return r
-    elif dice == 'd6':
-        r = random.randint(0, 5)
-        return r
-    elif dice == 'd4':
-        r = random.randint(0, 3)
-        return r
-    elif dice == 'd100':
-        r = random.randint(0, 99)
-        return r
-    elif dice == '50':
-        r = random.randint(0, 49)
-    else:
-        return 'ERROR! The input you have chosen was invalid.'
-
 # Put results in txt file.
 def generate():
     if radChoose.get() == 1:
@@ -103,11 +73,11 @@ randNum = random.randint(0, 306)
 randNum50 = random.randint(0, 49)
 
 # store results in the rDone array
-rDone[0] = rStruct[rollDice("d10")]
-rDone[1] = yRuin[rollDice("d10")]
-rDone[2] = rInhab[rollDice("d20")]
-rDone[3] = longRuin[rollDice("d8")]
-rDone[4] = rCondition[rollDice("d10")]
+rDone[0] = rStruct[rollDice.d10()]
+rDone[1] = yRuin[rollDice.d10()]
+rDone[2] = rInhab[rollDice.d20()]
+rDone[3] = longRuin[rollDice.d8()]
+rDone[4] = rCondition[rollDice.d10()]
 
 # Frame instantiation
 mainframe = ttk.Frame(padding="3 3 12 12")
@@ -128,7 +98,6 @@ town_entry.grid(column=2, row=1, sticky=(W, E))
 ttk.Button(mainframe, text="Generate!", command=generate).grid(column=3, row=7, sticky=W)
 ttk.Label(mainframe, text="Random Town:", justify='right').grid(column=1, row=2, sticky=W)
 ttk.Label(mainframe, text="Ruin Name:", justify='right').grid(column=1, row=1, sticky=W)
-ttk.Label(mainframe, text="Combination Town:", justify='right').grid(column=1, row=3, sticky=W)
 
 # Show result of random name grabbed.
 townResult = StringVar(mainframe, townName[randNum])
@@ -136,7 +105,6 @@ ttk.Label(mainframe, textvariable=townResult).grid(column=2, row=2, sticky=(W, E
 
 ttk.Radiobutton(mainframe, text="Choose this", variable=radChoose, value=1).grid(column=3, row=1, sticky=W)
 ttk.Radiobutton(mainframe, text="OR choose this", variable=radChoose, value=2).grid(column=3, row=2, sticky=W)
-ttk.Radiobutton(mainframe, text="OR choose this", variable=radChoose, value=3).grid(column=3, row=3, sticky=W)
 
 town_entry.focus()
 window.bind("<Return>", generate)
