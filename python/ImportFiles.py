@@ -22,7 +22,7 @@ class importFiles():
         ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            rStruct = fAtt.read().splitlines()[1:10]
+            rStruct = fAtt.read().splitlines()[1:11]
             fAtt.close()
         return rStruct
 
@@ -38,7 +38,7 @@ class importFiles():
         ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            yRuin = fAtt.read().splitlines()[36:45]
+            yRuin = fAtt.read().splitlines()[35:45]
             fAtt.close()
         return yRuin
 
@@ -46,7 +46,7 @@ class importFiles():
         ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            lRuin = fAtt.read().splitlines()[48:55]
+            lRuin = fAtt.read().splitlines()[47:55]
             fAtt.close()
         return lRuin
 
@@ -68,8 +68,8 @@ class importFiles():
 
 
 # For Testing purposes
-print(importFiles.rStruct())
+# print(importFiles.rStruct())
 # print(importFiles.rInhab())
 # print(importFiles.yRuin())
 # print(importFiles.longRuin())
-print(importFiles.rCondition())
+# print(importFiles.rCondition())
