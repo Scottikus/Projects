@@ -32,14 +32,14 @@ def generate():
     
     resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
 
-    with open(resultFile, 'a') as file_object:
-        file_object.write(name + " -\n" +
-                          "The Ruined Structure is - " + rDone[0] +
-                          "\nWhy was it ruined? - " + rDone[1] +
-                          "\nCurrent Inhabitants - " + rDone[2] +
-                          "\nHow long has it been ruined? - " + rDone[3] +
-                          "\nRuin Condition - " + rDone[4] + ".\n")
-        file_object.write('\n')
+    with open(resultFile, 'a') as f:
+        f.write(name + " -\n" +
+                "The Ruined Structure is - " + rDone[0] +
+                "\nWhy was it ruined? - " + rDone[1] +
+                "\nCurrent Inhabitants - " + rDone[2] +
+                "\nHow long has it been ruined? - " + rDone[3] +
+                "\nRuin Condition - " + rDone[4] + ".\n")
+        f.write("\n")
 
     print('Ruin has been saved to the RuinedPlaces file!')
     osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
