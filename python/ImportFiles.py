@@ -21,7 +21,7 @@ class importFiles():
         ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            rStruct = fAtt.read().splitlines()[1:10]
+            rStruct = fAtt.read().splitlines()[1:11]
             fAtt.close()
         return rStruct
 
@@ -37,7 +37,7 @@ class importFiles():
         ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            yRuin = fAtt.read().splitlines()[36:45]
+            yRuin = fAtt.read().splitlines()[35:45]
             fAtt.close()
         return yRuin
 
@@ -45,7 +45,7 @@ class importFiles():
         ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            lRuin = fAtt.read().splitlines()[48:55]
+            lRuin = fAtt.read().splitlines()[47:55]
             fAtt.close()
         return lRuin
 
@@ -53,7 +53,7 @@ class importFiles():
         ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
-            rCondition = fAtt.read().splitlines()[59:68]
+            rCondition = fAtt.read().splitlines()[58:68]
             fAtt.close()
         return rCondition
 
