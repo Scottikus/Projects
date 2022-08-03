@@ -7,6 +7,7 @@ class importFiles():
 
         with open(vPre) as fPre:
             preVill = fPre.read().splitlines()
+            fPre.close()
         return preVill
 
     def villSuf():
