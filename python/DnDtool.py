@@ -30,7 +30,7 @@ def generate():
     else:
         name ="ERROR Town"
     
-    resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
+    resultFile = 'python/contentFiles/RuinedPlaces.txt'
 
     with open(resultFile, 'a') as f:
         f.write(name + " -\n" +
@@ -42,7 +42,7 @@ def generate():
         f.write("\n")
 
     print('Ruin has been saved to the RuinedPlaces file!')
-    osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
+    osCommandString = "notepad.exe python/contentFiles/RuinedPlaces.txt"
     os.system(osCommandString)
 
 # Random Number for getting town name.

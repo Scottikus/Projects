@@ -3,15 +3,15 @@
 class importFiles():
 
     def villPre():
-        vPre = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Prefixes.txt'
-
+        vPre = 'python/contentFiles/Village_Prefixes.txt'
+    
         with open(vPre) as fPre:
             preVill = fPre.read().splitlines()
             fPre.close()
         return preVill
 
     def villSuf():
-        vSuf = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Village_Suffixes.txt'
+        vSuf = 'python/contentFiles/Village_Suffixes.txt'
 
         with open(vSuf) as fSuf:
             sufVill = fSuf.read().splitlines()
@@ -19,7 +19,7 @@ class importFiles():
         return sufVill
 
     def rStruct():
-        ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rStruct = fAtt.read().splitlines()[1:11]
@@ -27,7 +27,7 @@ class importFiles():
         return rStruct
 
     def rInhab():
-        ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rInhab = fAtt.read().splitlines()[13:33]
@@ -35,7 +35,7 @@ class importFiles():
         return rInhab
 
     def yRuin():
-        ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             yRuin = fAtt.read().splitlines()[35:45]
@@ -43,7 +43,7 @@ class importFiles():
         return yRuin
 
     def longRuin():
-        ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             lRuin = fAtt.read().splitlines()[47:55]
@@ -51,7 +51,7 @@ class importFiles():
         return lRuin
 
     def rCondition():
-        ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rCondition = fAtt.read().splitlines()[58:68]
@@ -59,7 +59,7 @@ class importFiles():
         return rCondition
 
     def townName():
-        nTown = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Town_Names.txt'
+        nTown = 'python/contentFiles/Town_Names.txt'
 
         with open(nTown) as fTown:
             tName = fTown.read().splitlines()
