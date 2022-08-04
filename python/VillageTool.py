@@ -35,16 +35,14 @@ name2 = sufVill[rollDice.d50()]
 comboTown = name1 + name2
 # ttk.Label(villFrame, textvariable=comboTown).grid(column=1, row=2, sticky=(W, E))
 # villWin.mainloop()
-
-for x in range(int(villBiz)) :
+vShops = []
+for x in range(int(villBiz)):
     vShop = villShop[rollDice.d100()]
-    vShops = 'python\contentFiles\Test.txt'
+    vShops.append(vShop)
 
-    with open(vShops, 'a') as fTest:
-        fTest.write(vShop + '\n')
-        fTest.close()
 
 print('Testing Output:')
 print(vType)
 print(villSize)
-print(villBiz)
+print(villBiz + " Businesses")
+print(vShops)
