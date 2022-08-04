@@ -18,6 +18,22 @@ class importFiles():
             fSuf.close()
         return sufVill
 
+    def villType():
+        vType = 'python/contentFiles/VillageType.txt'
+
+        with open(vType) as fType:
+            typeVill = fType.read().splitlines()
+            fType.close()
+        return typeVill
+
+    def villShop():
+        vShop = 'python/contentFiles/VillageShops.txt'
+
+        with open(vShop) as fShop:
+            shopVill = fShop.read().splitlines()
+            fShop.close()
+        return shopVill
+
     def rStruct():
         ruinAtt = 'python/contentFiles/Ruin_Attributes.txt'
 
@@ -73,3 +89,4 @@ class importFiles():
 # print(importFiles.yRuin())
 # print(importFiles.longRuin())
 # print(importFiles.rCondition())
+# print(importFiles.villSize())

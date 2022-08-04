@@ -1,0 +1,8 @@
+Thorp
+Hamlet
+Village
+Small Town
+Large Town
+Small City
+Large City
+Metropolis

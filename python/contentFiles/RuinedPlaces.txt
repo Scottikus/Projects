@@ -1,7 +1,14 @@
-CruxEaston -
+Crux Easton -
 The Ruined Structure is - A cemetery or tomb
 Why was it ruined? - A Natural Disaster
 Current Inhabitants - A group of traders collecting resources
 How long has it been ruined? - 1d6 Months Ago
 Ruin Condition - Contaminated.
+
+Bunowen -
+The Ruined Structure is - A grand noble's manor
+Why was it ruined? - Economic or Political Collapse
+Current Inhabitants - Plant creatures
+How long has it been ruined? - 1d6 Centuries Ago
+Ruin Condition - Crumbling / Decayed.
 
