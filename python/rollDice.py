@@ -26,6 +26,14 @@ class rollDice():
         r = random.randint(0, 3)
         return r
 
+    def d3():
+        r = random.randint(0, 2)
+        return r
+    
+    def d2():
+        r = random.randint(0, 1)
+        return r
+
     def d100():
         r = random.randint(0, 99)
         return r
