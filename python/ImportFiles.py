@@ -34,6 +34,22 @@ class importFiles():
             fShop.close()
         return shopVill
 
+    def villAge():
+        vAge = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Village_Age.txt'
+
+        with open(vAge) as fAge:
+            ageVill = fAge.read().splitlines()
+            fAge.close()
+        return ageVill
+
+    def villGov():
+        vGov = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Village_Gov.txt'
+
+        with open(vGov) as fGov:
+            govVill = fGov.read().splitlines()
+            fGov.close()
+        return govVill
+
     def rStruct():
         ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
 
@@ -81,7 +97,14 @@ class importFiles():
             tName = fTown.read().splitlines()
             fTown.close()
         return tName
+    
+    def townGeo():
+        gTown = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Settlement_Geography.txt'
 
+        with open(gTown) as fGeo:
+            tGeo = fGeo.read().splitlines()
+            fGeo.close()
+        return tGeo
 
 # For Testing purposes
 # print(importFiles.rStruct())
@@ -90,3 +113,5 @@ class importFiles():
 # print(importFiles.longRuin())
 # print(importFiles.rCondition())
 # print(importFiles.villSize())
+# print(importFiles.townGeo())
+# print(importFiles.villAge())

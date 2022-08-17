@@ -4,6 +4,8 @@ from ImportFiles import *
 preVill = importFiles.villPre()
 sufVill = importFiles.villSuf()
 villShop = importFiles.villShop()
+villAge = importFiles.villAge()
+villGeo = importFiles.townGeo()
 comboTown = ""
 
 typeVill = importFiles.villType()
@@ -15,7 +17,7 @@ villBiz = rollDice.villBiz(vType)
 
 name1 = preVill[rollDice.d100()]
 name2 = sufVill[rollDice.d50()]
-
+vGeo = villGeo[rollDice.d50()]
 comboTown = name1 + name2
 
 vShops = []
@@ -25,20 +27,24 @@ for x in range(int(villBiz)):
 
 
 if vType == 'Thorp':
-    villAge = rollDice.d3()
+    vAge = rollDice.d3()
     doesGov = False
+    ageVill = villAge[vAge]
 elif vType == 'Hamlet':
-    villAge = rollDice.d4()
-    doesGov = False    
+    vAge = rollDice.d4()
+    doesGov = False
+    ageVill = villAge[vAge]
 elif vType == 'Village':
-    villAge = rollDice.d6()
+    vAge = rollDice.d6()
+    ageVill = villAge[vAge]
     govOrNot = rollDice.d2()
     if govOrNot == 0:
         doesGov = False
     else:
         doesGov = True
 else:
-    villAge = rollDice.d6()
+    vAge = rollDice.d6()
+    ageVill = villAge[vAge]
     doesGov = True
     
 print('Testing Output:')
@@ -46,8 +52,10 @@ print(vType)
 print(villSize)
 print(villBiz + " Businesses")
 print(vShops)
-print("Village Age is: "+ str(villAge))
+print("Village Age is: "+ ageVill)
 print("Does it have a government?: " + str(doesGov))
+print("What is the Geography?: " + vGeo)
+
 # Import necessary libraries
 # from tkinter import *
 # from tkinter import ttk
