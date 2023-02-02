@@ -4,42 +4,19 @@ from tkinter import ttk
 import random
 import os
 from rollDice import *
+from ImportFiles import *
 
 # Instantiate Window
 window = Tk()
 window.title("Ruin Tool")
 
 # Arrays to pull from
-nTown = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Town_Names.txt'
-
-with open(nTown) as fTown:
-    townName = fTown.read().splitlines()
-    fTown.close()
-
-
-ruinAtt = 'C:/Users/scott/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
-
-with open(ruinAtt) as fAtt:
-    rStruct = fAtt.read().splitlines()[1:11]
-    fAtt.close()
-
-with open(ruinAtt) as fAtt:
-    rInhab = fAtt.read().splitlines()[13:33]
-    fAtt.close()
-
-with open(ruinAtt) as fAtt:
-    yRuin = fAtt.read().splitlines()[36:45]
-    fAtt.close()
-
-with open(ruinAtt) as fAtt:
-    longRuin = fAtt.read().splitlines()[48:56]
-    fAtt.close()
-
-with open(ruinAtt) as fAtt:
-    rCondition = fAtt.read().splitlines()[59:68]
-    fAtt.close()
-
-
+townName = importFiles.townName()
+rStruct = importFiles.rStruct()
+yRuin = importFiles.yRuin()
+rInhab = importFiles.rInhab()
+longRuin = importFiles.longRuin()
+rCondition = importFiles.rCondition()
 
 # Array to store results
 rDone = ["", "", "", "", ""]
@@ -53,24 +30,23 @@ def generate():
     else:
         name ="ERROR Town"
     
-    resultFile = 'C:/Users/scott/Downloads/RuinedPlaces.txt'
+    resultFile = 'python/contentFiles/RuinedPlaces.txt'
 
-    with open(resultFile, 'a') as file_object:
-        file_object.write(name + " -\n" +
-                          "The Ruined Structure is - " + rDone[0] +
-                          "\nWhy was it ruined? - " + rDone[1] +
-                          "\nCurrent Inhabitants - " + rDone[2] +
-                          "\nHow long has it been ruined? - " + rDone[3] +
-                          "\nRuin Condition - " + rDone[4] + ".\n")
-        file_object.write('\n')
+    with open(resultFile, 'a') as f:
+        f.write(name + " -\n" +
+                "The Ruined Structure is - " + rDone[0] +
+                "\nWhy was it ruined? - " + rDone[1] +
+                "\nCurrent Inhabitants - " + rDone[2] +
+                "\nHow long has it been ruined? - " + rDone[3] +
+                "\nRuin Condition - " + rDone[4] + ".\n")
+        f.write("\n")
 
     print('Ruin has been saved to the RuinedPlaces file!')
-    osCommandString = "notepad.exe C:/Users/scott/Downloads/RuinedPlaces.txt"
+    osCommandString = "notepad.exe python/contentFiles/RuinedPlaces.txt"
     os.system(osCommandString)
 
 # Random Number for getting town name.
 randNum = random.randint(0, 306)
-randNum50 = random.randint(0, 49)
 
 # store results in the rDone array
 rDone[0] = rStruct[rollDice.d10()]

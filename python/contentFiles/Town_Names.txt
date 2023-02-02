@@ -20,9 +20,9 @@ Northwick
 Upwaltham
 Chatwell
 Eagletree
-EwyasHarold
+Ewyas Harold
 Farthinghoe
-Getty'sPeak
+Getty's Peak
 Ystumllwynarth
 Milston
 Inkdon
@@ -89,7 +89,7 @@ Meadhaven
 Tetchill
 Tay
 Darlajex
-HedleyontheHill
+Hedley on the Hill
 Lyrenagreena
 Swallowbeak
 Portloman
@@ -102,9 +102,9 @@ Appledore
 Wiggenhall
 Dundertun
 Crewe
-AshdownForest
+Ashdown Forest
 Goldcrest
-SaintBees
+St. Bees
 Munsley
 Sweetmount
 Blatchington
@@ -122,15 +122,15 @@ Pottersfield
 Chilwell
 Wolsingham
 Merryhall
-HarlowHill
+Harlow Hill
 Lettermullan
 Timbersprout
 Astley
 Clent
-GraceyPeaks
-BerrowGreen
+Gracey Peaks
+Berrow Green
 Corrandulla
-Winter'sEnd
+Winter's End
 Attenborough
 Pickworth
 Donaville
@@ -148,7 +148,7 @@ Barham
 Heathenschurch
 Hilborough
 Ballinameen
-FleetLanding
+Fleet Landing
 Chiddingstone
 Sollom
 Windrest
@@ -157,11 +157,11 @@ Curragh
 Windybrook
 Wartnaby
 Lifford
-Bowen'sIsland
+Bowen's Island
 Ewell
-IllstonontheHill
+Illston on the Hill
 Kingsford
-ShrigleyPott
+Shrigley Pott
 Braunton
 Snowygap
 Peterborough
@@ -197,7 +197,7 @@ Lissycasey
 Hollybranch
 Treforys
 Ballycommon
-Threader'sHollow
+Threader's Hollow
 Pyecombe
 Althorp
 Silverton
@@ -217,26 +217,26 @@ Kesgrave
 Budbrooke
 Starrynight
 Avonmouth
-BardseyIsland
+Bardsey Island
 Underthal
 Ashmansworth
 ChellHeath
-SaintMichaelsheights
+St. Michael's Heights
 Marlborough
 Palgrave
-LittlePeachingston
+Little Peachingston
 Casnewydd-ar-Wysg
 Ilminster
 Featherfall
 Aller
 Messing
-CrippleCreek
+Cripple Creek
 Braemar
 Swanley
 Featherfoot
 Willand
 Bierton
-RiddleReach
+Riddle Reach
 Bredfield
 Crow
 Wundwin
@@ -259,7 +259,7 @@ Aberavon
 Supbrough
 MancotRoyal
 Orcsnout
-CasnewyddGreen
+Casnewydd Green
 Benwick
 Aeby-on-Sea
 Peckleton
@@ -270,8 +270,8 @@ Woodstock
 Cowlinge
 Smolton
 Penistone
-GlenRobins
-TheydonBois
+Glen Robins
+Theydon Bois
 Crag
 Totternhoe
 Blockley
@@ -284,7 +284,7 @@ Tindale
 Brafferton
 Fockery
 Soulby
-Martin'sFerry
+Martin's Ferry
 Petersham
 Wagonrut
 West
@@ -294,7 +294,7 @@ Tilford
 DeepRun
 Penrhyn-Llŷn
 Endtown
-CruxEaston
+Crux Easton
 Wallasey
 Shavebury
 Veryan
