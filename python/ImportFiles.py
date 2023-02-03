@@ -106,6 +106,14 @@ class importFiles():
             fGeo.close()
         return tGeo
 
+    def govType():
+        gType = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/GovType.txt'
+
+        with open(gType) as fGov:
+            tGeo = fGov.read().splitlines()
+            fGov.close()
+        return tGeo
+
 # For Testing purposes
 # print(importFiles.rStruct())
 # print(importFiles.rInhab())
