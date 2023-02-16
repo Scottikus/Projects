@@ -71,3 +71,7 @@ print("What is the Geography?: " + vGeo)
 # comboTown = StringVar(villFrame, name1 + name2)
 # ttk.Label(villFrame, textvariable=comboTown).grid(column=1, row=2, sticky=(W, E))
 # villWin.mainloop()
+
+
+#https://www.notion.so/dd8ca5209d9943929f1f53a103b43a71?v=cdf4accfe2ad413b8124cbd0b40dd2bd
+#https://loreteller.notion.site/City-Size-Population-Models-3dbab454b3f1452d8c540bfaa2c9a709

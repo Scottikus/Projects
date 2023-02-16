@@ -1,100 +1,100 @@
-Anarchy
-Anarchy
-Anarchy
-Anarchy
-Anarchy
-Autocracy
-Autocracy
-Autocracy
-Autocracy
-Autocracy
-Autocracy
-Bureaucracy
-Bureaucracy
-Bureaucracy
-Confederacy
-Confederacy
-Confederacy
-Confederacy
-Confederacy
-Democracy
-Democracy
-Democracy
-Dictatorship
-Dictatorship
-Dictatorship
-Dictatorship
-Dictatorship
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Feudalism
-Gerontocracy
-Gerontocracy
-Gerontocracy
-Hierarchy
-Hierarchy
-Hierarchy
-Hierarchy
-Hierarchy
-Hierarchy
-Magocracy
-Magocracy
-Magocracy
-Magocracy
-Matriarchy
-Matriarchy
-Matriarchy
-Militocracy
-Militocracy
-Militocracy
-Militocracy
-Militocracy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Monarchy
-Noocracy
-Noocracy
-Noocracy
-Oligarchy
-Oligarchy
-Oligarchy
-Oligarchy
-Patriarchy
-Patriarchy
-Patriarchy
-Meritocracy
-Meritocracy
-Meritocracy
-Plutocracy
-Plutocracy
-Republic
-Republic
-Republic
-Republic
-Republic
-Republic
-Republic
-Republic
-Satrapy
-Satrapy
-Kleptocracy
-Kleptocracy
-Theocracy
-Theocracy
-Theocracy
-Theocracy
+Anarchy - A settlement without a publicly enforced government or authority.
+Anarchy - A settlement without a publicly enforced government or authority.
+Anarchy - A settlement without a publicly enforced government or authority.
+Anarchy - A settlement without a publicly enforced government or authority.
+Anarchy - A settlement without a publicly enforced government or authority.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Autocracy - One hereditary ruler weilds absolute power over this settlement.
+Bureaucracy - The important settlement decisions are made by elected officials.
+Bureaucracy - The important settlement decisions are made by elected officials.
+Bureaucracy - The important settlement decisions are made by elected officials.
+Confederacy - Each settlement in a confederacy governs itself, but contribute to each other.
+Confederacy - Each settlement in a confederacy governs itself, but contribute to each other.
+Confederacy - Each settlement in a confederacy governs itself, but contribute to each other.
+Confederacy - Each settlement in a confederacy governs itself, but contribute to each other.
+Confederacy - Each settlement in a confederacy governs itself, but contribute to each other.
+Democracy - Elected officials determine the laws in this settlement.
+Democracy - Elected officials determine the laws in this settlement.
+Democracy - Elected officials determine the laws in this settlement.
+Dictatorship - Elected officials determine the laws in this settlement.
+Dictatorship - Elected officials determine the laws in this settlement.
+Dictatorship - Elected officials determine the laws in this settlement.
+Dictatorship - Elected officials determine the laws in this settlement.
+Dictatorship - Elected officials determine the laws in this settlement.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Feudalism - Local lords rule their own territory, but all answer to a reigning lord.
+Gerontocracy - The elders of the settlement make all of the decisions.
+Gerontocracy - The elders of the settlement make all of the decisions.
+Gerontocracy - The elders of the settlement make all of the decisions.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Hierarchy - A feudal government where every member, except one, is subordinate to another.
+Magocracy - Governed by professional magic-users only.
+Magocracy - Governed by professional magic-users only.
+Magocracy - Governed by professional magic-users only.
+Magocracy - Governed by professional magic-users only.
+Matriarchy - The settlement is governed by the eldest or most important female.
+Matriarchy - The settlement is governed by the eldest or most important female.
+Matriarchy - The settlement is governed by the eldest or most important female.
+Militocracy - Military leaders run the settlement under martial law using armed forces.
+Militocracy - Military leaders run the settlement under martial law using armed forces.
+Militocracy - Military leaders run the settlement under martial law using armed forces.
+Militocracy - Military leaders run the settlement under martial law using armed forces.
+Militocracy - Military leaders run the settlement under martial law using armed forces.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Monarchy - The most common fantasy world government. Settlement ruled by a king/queen.
+Noocracy - Governed by the wisest people or person in the settlement.
+Noocracy - Governed by the wisest people or person in the settlement.
+Noocracy - Governed by the wisest people or person in the settlement.
+Oligarchy - Power is held by a select few powerful, wealthy people. Often tyrannical.
+Oligarchy - Power is held by a select few powerful, wealthy people. Often tyrannical.
+Oligarchy - Power is held by a select few powerful, wealthy people. Often tyrannical.
+Oligarchy - Power is held by a select few powerful, wealthy people. Often tyrannical.
+Patriarchy - The settlement is governed by the eldest or most important male.
+Patriarchy - The settlement is governed by the eldest or most important male.
+Patriarchy - The settlement is governed by the eldest or most important male.
+Meritocracy - The most intelligent and educated people oversee the settlement.
+Meritocracy - The most intelligent and educated people oversee the settlement.
+Meritocracy - The most intelligent and educated people oversee the settlement.
+Plutocracy - The settlement is ruled by the rich. They band together and make the decisions.
+Plutocracy - The settlement is ruled by the rich. They band together and make the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Republic - The citizens select representatives who make all the decisions.
+Satrapy - Conquerors from another government rule this settlement.
+Satrapy - Conquerors from another government rule this settlement.
+Kleptocracy - Ruled by an individual who is only seeking wealth for themselves.
+Kleptocracy - Ruled by an individual who is only seeking wealth for themselves.
+Theocracy - Ruled by direct representatives of an almighty deity.
+Theocracy - Ruled by direct representatives of an almighty deity.
+Theocracy - Ruled by direct representatives of an almighty deity.
+Theocracy - Ruled by direct representatives of an almighty deity.
