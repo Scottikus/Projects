@@ -40,3 +40,10 @@ Current Inhabitants - Savage beasts
 How long has it been ruined? - 1d6 Centuries Ago
 Ruin Condition - Corroded / Eroded.
 
+Boarsrest -
+The Ruined Structure is - A small collection of huts
+Why was it ruined? - Disease / Plague
+Current Inhabitants - A group of traders collecting resources
+How long has it been ruined? - 1d6 Hours Ago
+Ruin Condition - Still Partially Operational.
+

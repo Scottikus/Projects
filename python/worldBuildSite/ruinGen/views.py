@@ -39,6 +39,9 @@ def vote(request, ruinName_id):
         return HttpResponseRedirect(reverse('ruinGen:results', args=(ruin.id,)))
 
 def ruinBuild(request):
-    result = generate2()
-    context = {'result': result}
-    return render(request, 'ruinGen/ruinBuild.html', context)
+    if request.method == 'POST':
+        result = generate2()
+        context = {'result': result}
+        return render(request, 'ruinGen/ruinBuild.html', context)
+    else:
+        return render(request, 'ruinGen/ruinBuild.html')

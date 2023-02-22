@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ result[0] }}</title>
+    <title>{{ result.0 }}</title>
 </head>
 <body>
+    <h1>{{ result.0 }}</h1>
     <ul>
-        
-        <li>{{ result[1] }}</li>
-        <li>{{ result[2] }}</li>
-        <li>{{ result[3] }}</li>
-        <li>{{ result[4] }}</li>
-        <li>{{ result[5] }}</li>
-    
+        <li>The Ruined Structure is - {{ result.1 }}</li>
+        <li>Why was it ruined? - {{ result.2 }}</li>
+        <li>Current Inhabitants - {{ result.3 }}</li>
+        <li>How long has it been ruined? - {{ result.4 }}</li>
+        <li>Ruin Condition - {{ result.5 }}</li>
     </ul>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Run my program</button>
+    </form>
 </body>
 </html>
 

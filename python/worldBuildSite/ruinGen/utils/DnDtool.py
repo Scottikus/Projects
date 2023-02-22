@@ -48,7 +48,7 @@ rDone = ["", "", "", "", ""]
 # Put results in txt file.
 def generate2():
     results = ["", "", "", "", "", ""]
-    results[0] = townResult.get()
+    results[0] = townName[randNum]
 
     results[1] = rDone[0]
     results[2] = rDone[1]
