@@ -51,7 +51,7 @@ class importFiles():
         return govVill
 
     def rStruct():
-        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rStruct = fAtt.read().splitlines()[1:11]
@@ -59,7 +59,7 @@ class importFiles():
         return rStruct
 
     def rInhab():
-        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rInhab = fAtt.read().splitlines()[13:33]
@@ -67,7 +67,7 @@ class importFiles():
         return rInhab
 
     def yRuin():
-        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             yRuin = fAtt.read().splitlines()[35:45]
@@ -75,7 +75,7 @@ class importFiles():
         return yRuin
 
     def longRuin():
-        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             lRuin = fAtt.read().splitlines()[47:55]
@@ -83,7 +83,7 @@ class importFiles():
         return lRuin
 
     def rCondition():
-        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Ruin_Attributes.txt'
+        ruinAtt = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Ruin_Attributes.txt'
 
         with open(ruinAtt) as fAtt:
             rCondition = fAtt.read().splitlines()[58:68]
@@ -91,7 +91,7 @@ class importFiles():
         return rCondition
 
     def townName():
-        nTown = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Town_Names.txt'
+        nTown = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Town_Names.txt'
 
         with open(nTown) as fTown:
             tName = fTown.read().splitlines()
@@ -99,7 +99,7 @@ class importFiles():
         return tName
     
     def townGeo():
-        gTown = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/Settlement_Geography.txt'
+        gTown = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/Settlement_Geography.txt'
 
         with open(gTown) as fGeo:
             tGeo = fGeo.read().splitlines()
@@ -107,7 +107,7 @@ class importFiles():
         return tGeo
 
     def govType():
-        gType = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/contentFiles/GovType.txt'
+        gType = 'C:/Users/' + os.environ['USERNAME'] + '/Documents/GitHub/Projects/python/worldBuildSite/ruinGen/utils/contentFiles/GovType.txt'
 
         with open(gType) as fGov:
             tGeo = fGov.read().splitlines()
