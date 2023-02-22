@@ -17,3 +17,13 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+class RuinedPlaces(models.Model):
+    placeName_text = models.CharField(max_length=200)
+    rStruct = models.CharField(max_length=50)
+    yRuin = models.CharField(max_length=50)
+    rInhab = models.CharField(max_length=50)
+    longRuin = models.CharField(max_length=50)
+    rCondition = models.CharField(max_length=50)
+    def __str__(self):
+        return self.placeName_text

@@ -1,0 +1,68 @@
+rStruct
+A small collection of huts
+A grand noble's manor
+A temple or monastery
+A mighty citadel
+A single cottage
+A once mighty wizard's tower
+A cemetery or tomb
+A small hamlet
+A town or village
+A city or major settlement
+
+rInhab
+Groups of bandits or criminals
+Swarms of vermin
+Social outcasts looking for a new home
+Haunted by ghosts or spirits
+Swarms of insects
+Savage beasts
+Refugees with nowhere else to go
+Hordes of undead
+Rebels acting against the local ruler
+Brand new settlers
+A group of traders collecting resources
+Religious fanatics or cult members
+Groups of giants
+Eldritch beings
+A mighty and cunning dragon
+Survivors of the ruin's original purpose
+Plant creatures
+Friendly adventuring group passing through
+A wizard that is up to no good
+No one; it is truly abandoned
+
+yRuin
+Disease / Plague
+Economic or Political Collapse
+Monster Invasion
+Evil Curse
+Overgrowth
+Victims of a Great War
+A Natural Disaster
+Infestation
+Wrath of an Angry God
+A Magical Catastrophe
+
+longRuin
+Before Recorded History
+1d6 Centuries Ago
+1d6 Decades Ago
+1d6 Years Ago
+1d6 Months Ago
+1d6 Weeks Ago
+1d6 Days Ago
+1d6 Hours Ago
+
+
+rCondition
+Crumbling / Decayed
+Disfigured / Desecrated
+Infested
+Corroded / Eroded
+Collapsed and Broken
+Crystallized / Petrified In Stone
+Contaminated
+Overgrown / Fungal
+Still Partially Operational
+Fully Operational

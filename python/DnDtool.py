@@ -45,6 +45,22 @@ def generate():
     osCommandString = "notepad.exe python/contentFiles/RuinedPlaces.txt"
     os.system(osCommandString)
 
+# Put results in txt file.
+def generate2():
+    results = ["", "", "", "", "", ""]
+    results[0] = townResult.get()
+
+    results[1] = rDone[0]
+    results[2] = rDone[1]
+    results[3] = rDone[2]
+    results[4] = rDone[3]
+    results[5] = rDone[4]
+
+    # print('Ruin has been saved to the RuinedPlaces file!')
+    # osCommandString = "notepad.exe python/contentFiles/RuinedPlaces.txt"
+    # os.system(osCommandString)
+    return results
+
 # Random Number for getting town name.
 randNum = random.randint(0, 306)
 

@@ -1,0 +1,9 @@
+{% if latest_ruinName_list %}
+    <ul>
+    {% for ruinName in latest_ruinName_list %}
+        <li><a href="{% url 'ruinGen:detail' ruinName.id %}">{{ ruinName.ruinName_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
