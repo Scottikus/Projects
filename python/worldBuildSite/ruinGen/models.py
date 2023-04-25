@@ -19,6 +19,7 @@ class Choice(models.Model):
         return self.choice_text
 
 class RuinedPlaces(models.Model):
+    ruinName = models.ForeignKey(RuinName, on_delete=models.CASCADE)
     placeName_text = models.CharField(max_length=200)
     rStruct = models.CharField(max_length=50)
     yRuin = models.CharField(max_length=50)
