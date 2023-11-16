@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "56171fc15ae1818a",
+    "type": "split",
+    "children": [
+      {
+        "id": "a23850dde77eff8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a90b2ee1b259b8e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-11-16.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "9fdd99d06f9d9d4b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92a94f6716ad0fe7",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "2023-11-16.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4c53c6502b98b8a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cfe6229d2210bbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a152208ecc4a9333",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "c620a1871af83eb8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b3813117f885127",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac4bdadc3ae6d369",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d854af046534390",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "187b45082e13c391",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2023-11-16.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f8870ee3ac4a646",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2023-11-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "83170567a0ea042c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "634223ebe3076ee8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2023-11-16.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a90b2ee1b259b8e9",
+  "lastOpenFiles": [
+    "2023-11-15.md",
+    "2023-11-16.md",
+    "Ramen Cart Concept/Kitchen Utensils.md",
+    "Ramen Cart Concept/Materials.md",
+    "Ramen Cart Concept/Chuck Wagon-like cart.md",
+    "DnD/The Town of Blythewood.md",
+    "DnD/The Brimming Tankard Inn.md",
+    "DnD/Blythewood Job Board.md",
+    "DnD/General Store.md",
+    "DnD/The Emerald Wyrm.md",
+    "Ramen Cart Concept",
+    "DnD",
+    "Blythewood.md"
+  ]
+}

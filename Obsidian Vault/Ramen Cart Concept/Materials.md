@@ -1,0 +1,10 @@
+- [ ] 10' x 15' Canopy
+- [ ] [[Chuck Wagon-like cart]]
+- [ ] [[Kitchen Utensils]]
+- [ ] Propane Burners
+- [ ] Propane
+- [ ] [IKEA Kitchenette](https://www.ikea.com/us/en/p/sunnersta-kitchenette-40313363/)
+- [ ] Lanterns/Lights
+- [ ] Folding Chairs - 6 - 8
+- [ ] [24" Roku TV](https://www.bestbuy.com/site/roku-24-class-select-series-hd-smart-rokutv/6536708.p?skuId=6536708)
+- [ ] [TV Antenna](https://a.co/d/cbylAYp)

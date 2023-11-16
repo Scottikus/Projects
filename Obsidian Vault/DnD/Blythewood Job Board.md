@@ -1,0 +1,11 @@
+- [ ] Need men to form a small honor garrison for the banquet I am holding in my manor. Important people are involved, so discretion is mandatory. 
+	- 200GP per person, payed upfront. No questions asked. (All the guests are vampires.)
+- [ ] Wandering Skeleton: Wandering Skeleton seen on the outskirts of town. It appears armed with a sword, shield and horned helmet. 
+	- Dispatch this skeleton and we'll offer you 10% off anything in town
+- [ ] Goblin encampment: A goblin encampment has appeared in the Southern part of town across the ravine. They've been there for days and don't seem to be aggressive, but we can't be so sure. Find out what they're doing -- if they're a threat, please dispatch with them.
+- [ ] Merchants looking for armed security to escort us to (Insert town or city name here).
+- [ ] Being followed by crawling claws. Kill 1D4 crawling claws. 
+	- Reward of 40gp.
+- [ ] Help find my lost pet cat! 
+	- Reward of 3D10gp to anyone who finds him.
+- [ ] HELP WANTED: Poor old widow requests the assistance of any strong and able persons to rearrange some furnishings. (She is a witch in a small town of elderly folks that help her trick strong strangers in order to preserve their own lives.)

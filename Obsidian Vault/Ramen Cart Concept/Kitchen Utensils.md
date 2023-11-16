@@ -1,0 +1,8 @@
+- [ ] Bowls
+- [ ] Spoons
+- [ ] Chopsticks
+- [ ] Cups
+- [ ] Stock Pots - 4
+- [ ] [Ramen Basket Strainers](https://a.co/d/hFc2LPi)
+- [ ] Food Containers
+- [ ] 
