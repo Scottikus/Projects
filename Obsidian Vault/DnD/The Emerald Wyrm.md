@@ -1,3 +1,4 @@
+# The Emerald Wyrm
 This tea shop has a variety of flavored teas and herbal tisanes. The shop almost assaults you with the many smells, from the incense to the different brewed beverages.
 ## Owner - 
 ### Beverages

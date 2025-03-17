@@ -4,55 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a23850dde77eff8c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a90b2ee1b259b8e9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "9fdd99d06f9d9d4b",
         "type": "tabs",
         "children": [
           {
-            "id": "92a94f6716ad0fe7",
+            "id": "32e7860ebf0ecea4",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
+              "type": "markdown",
               "state": {
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 1,
-                  "close": true
-                }
-              }
+                "file": "2023-11-17.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2023-11-17"
+            }
+          },
+          {
+            "id": "c52efb80db522262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recipes/Valhiem Tasty Mead.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Valhiem Tasty Mead"
             }
           }
         ]
@@ -74,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
-              }
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -90,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -98,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -121,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DnD/The Brimming Tankard Inn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for The Brimming Tankard Inn"
             }
           },
           {
@@ -137,9 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DnD/The Brimming Tankard Inn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from The Brimming Tankard Inn"
             }
           },
           {
@@ -150,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -158,7 +153,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DnD/The Brimming Tankard Inn.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The Brimming Tankard Inn"
             }
           }
         ]
@@ -178,18 +177,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a90b2ee1b259b8e9",
+  "active": "32e7860ebf0ecea4",
   "lastOpenFiles": [
+    "2023-11-27.md",
+    "2023-12-08.md",
     "2023-11-16.md",
     "2023-11-15.md",
-    "Ramen Cart Concept/Kitchen Utensils.md",
-    "Ramen Cart Concept/Materials.md",
-    "Ramen Cart Concept/Chuck Wagon-like cart.md",
-    "DnD/The Town of Blythewood.md",
     "DnD/The Brimming Tankard Inn.md",
+    "DnD/The Town of Blythewood.md",
+    "DnD/World Building.md",
+    "DnD/Seed of Drikolia.md",
+    "DnD/Pantheon.md",
     "DnD/Blythewood Job Board.md",
     "DnD/General Store.md",
+    "DnD/Blythewood Stranger Rides into Town.md",
+    "Recipes/Valhiem Tasty Mead.md",
+    "Recipes/Table of Contents.md",
+    "Recipes/Chopped Cheese.md",
+    "Ramen Cart Concept/Materials.md",
+    "Recipes/TikTok Hummus.md",
+    "Recipes",
+    "DnD/Small Temple of Pelor.md",
+    "DnD/Raekolon.md",
     "DnD/The Emerald Wyrm.md",
+    "2023-11-17.md",
+    "Ramen Cart Concept/Kitchen Utensils.md",
+    "Ramen Cart Concept/Chuck Wagon-like cart.md",
     "Ramen Cart Concept",
     "DnD",
     "Blythewood.md"

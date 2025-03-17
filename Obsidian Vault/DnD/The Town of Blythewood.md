@@ -1,5 +1,5 @@
+# The Town of Blythewood
 The town of Blythewood is a small settlement at the each of a vast and dark forest. The town is humble in nature, it is thriving and its citizens are happy. Blythewood is known for it's music. Most bards have heard of this place as a good venue for travelers and residents alike. 
-
 #### Age - 80 Years
 #### Population - ~950
 ### Notable Landmarks
@@ -8,7 +8,7 @@ The town of Blythewood is a small settlement at the each of a vast and dark fore
 	- [[The Emerald Wyrm]]
 	- [[General Store]]
 - Other Features
-	- [[Small Temple]]
+	- [[Small Temple of Pelor]]
 	- [[Small farms]]
 	- No walls... Yet?
 	- Main Road
